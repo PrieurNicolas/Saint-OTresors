@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saint-O'Trésor</title>
+    <link href="./styles.css" rel="stylesheet">
+</head>
+
+<header>
+    <h2 class="header_title">Saint-O'Trésor</h2>
+    <div class="navbar_btns">
+        <button class="navbar_profile" onclick="open_nav()">
+            <ion-icon class="icon" name="person-circle-outline"></ion-icon>
+        </button>
+    </div>
+    <nav class="navbar" id='nav'>
+        <a class="nav_link" href="#">Mon profil</a>
+        <a class="nav_link" href="#">Mes chasses</a>
+        <a class="nav_link" href="#">Liste des chasses</a>
+        <a class="nav_link" href="#">Partenaires</a>
+        <a class="nav_link" href="#">Déconnexion</a>
+    </nav>
+</header>
+
+<body>
+    <h2 class="title">Inscription</h2>
+    <div class="input_box">
+        <input class="signup_input" required />
+        <label class="input_label">Nom d'utilisateur</label>
+    </div>
+    <div class="input_box">
+        <input class="signup_input" required />
+        <label class="input_label">Adresse email</label>
+    </div>
+    <div class="input_box">
+        <input class="signup_input" required />
+        <label class="input_label">Mot de passe</label>
+    </div>
+    <div class="input_box">
+        <input class="signup_input" required />
+        <label class="input_label">Confirmation du mot de passe</label>
+    </div>
+    <button class="submit">Créer mon compte</button>
+
+    <script src="handler.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</body>
+
+</html>
