@@ -1,0 +1,28 @@
+body{
+    background-color: #178FCF;
+}
+
+.pres{
+    align-self: center;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.desc{
+    font-size: xx-large;
+    font-weight: 800;
+    color: aliceblue;
+}
+
+.btn{
+    align-self: center;
+    background-color: #76B729;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    border: none;
+}
+
+.dbtn{
+    text-align: center;
+}
