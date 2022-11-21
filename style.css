@@ -82,22 +82,30 @@ h1 {
 
 .email {
     background-color: #D3C2C2;
-    margin-top: 5%;
     height: 50px;
     width: 250px;
     border-radius: 10px;
     border: none;
-    text-align: center;
 }
-
-.password {
-    background-color: #D3C2C2;
-    margin-top: 5%;
-    height: 50px;
-    width: 250px;
-    border-radius: 10px;
-    border: none;
-    text-align: center;
+.email:focus+.email2,.email:valid+.email2{
+    transform: translate(-50%,-50px);
+    color: black;
+    backdrop-filter: blur(10px);
+    padding: 5px, 5px, 0, 5px;
+}
+.email2{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    pointer-events: none;
+    transition: transform .2s ease;
+    transform: translate(-50%,-50%);
+}
+.inputbox{
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    margin-inline: auto;
 }
 
 .btnlog{
